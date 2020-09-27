@@ -56,6 +56,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity:1;
 }
 .slider{
     background:#21576D;
