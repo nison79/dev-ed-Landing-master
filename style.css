@@ -12,5 +12,74 @@ main {
     min-height:100vh;
     background-image: url("./assets/sea.jpg");
     background-size: cover;
+    padding: 0rem 5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height:10vh;
+}
+.nav-links{
+    display:flex;
+    list-style: none;
     
+}
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    font-family: "Heebo", sans-serif;
+}
+#logo{
+    font-family: "Heebo", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color:#21576D
+}
+.big-text{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-30%);
+    font-size: 5rem;
+    font-family: "Lobster Two", cursive;
+    color:#21576D;
+}
+.intro{
+    background:#DECFC8;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    background:#21576D;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform:translateY(100%)
+ 
+}
+
+.intro-text{
+    color:#21576D;
+    font-family: "Heebo", sans-serif;
+    font-size: 5rem;
+}
+
+.hide{
+    background:b#DECFC8;
+    overflow: hidden;
+}
+
+.hide span {
+    transform:translateY(100%);
+    display: inline-block;
 }
